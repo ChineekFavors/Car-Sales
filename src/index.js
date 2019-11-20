@@ -4,9 +4,14 @@ import App from './App';
 
 import {createStore} from 'redux';
 
+import {carReducer} from './components/reducers/carReducer.js';
+
+
 import 'bulma/css/bulma.css';
 import './styles.scss';
 
+const store = createStore(carReducer);
+
+
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
-ls

@@ -1,4 +1,4 @@
-const state = {
+const initialState = {
     additionalPrice: 0,
     car: {
       price: 26395,
